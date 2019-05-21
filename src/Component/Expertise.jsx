@@ -4,7 +4,7 @@ import { Card } from 'semantic-ui-react';
 function Expertise() {
     return (
         <div>
-            <h1>Notre expertise</h1>
+            <h2>Notre expertise</h2>
             <Card.Group >
                 <Card centered color='black'>
                     <Card.Content>
