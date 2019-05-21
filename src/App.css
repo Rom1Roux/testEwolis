@@ -15,7 +15,9 @@ body {
 .NavBarApp a:hover {
   color: #f3f6f8;
 }
-
+h1 {
+  font-size: 80px;
+}
 h1, h2 {
   color: #00a5df;
   text-align: center;
