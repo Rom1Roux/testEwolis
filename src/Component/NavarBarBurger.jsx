@@ -52,7 +52,16 @@ class NavarBarBurger extends Component {
                         className={`${activeItem === 'qualification' ? 'menu-item navbar-Selected' : 'menu-item'}`}
                         href="#qualification">Qualification produit
                     </a>
-                    <Dropdown className='NavBarDropdown' href="#/" text='Parent' options={options} simple item />
+                    <Dropdown
+                        id="parent"
+                        onClick={() => this.onClickMenu('parent')}
+                        className={`${activeItem === 'parent' ? 'menu-item NavBarDropdown navbar-Selected' : 'NavBarDropdown menu-item'}`}
+                        href="#/"
+                        text='Parent'
+                        options={options}
+                        simple
+                        item
+                    />
                 </Menu>
             </div>
         );
