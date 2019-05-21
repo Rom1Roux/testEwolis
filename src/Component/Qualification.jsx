@@ -1,19 +1,28 @@
 import React from 'react';
-import { Card } from 'semantic-ui-react';
+import { Card, Image } from 'semantic-ui-react';
+import airplanesClouds from '../img/airplanesClouds.jpg';
 
 function Qualification() {
     return (
         <div>
             <h2>Qualification produit</h2>
-            <Card.Group >
-                <Card centered color='black'>
+            <Card.Group centered>
+                <Card>
+                    <Image src={airplanesClouds} wrapped ui={false} />
                     <Card.Content>
-                        <Card.Meta textAlign='center'>Développement des tests et des moyens de qualification</Card.Meta>
+                        <Card.Header>Projets de R&D en cours</Card.Header>
+                        <Card.Description>
+                            text...
+                        </Card.Description>
                     </Card.Content>
                 </Card>
-                <Card centered color='black'>
+                <Card>
+                    <Image src={airplanesClouds} wrapped ui={false} />
                     <Card.Content>
-                        <Card.Meta textAlign='center'>Certification auprès des autorités FAA et EASA</Card.Meta>
+                        <Card.Header>Nouveaux projets</Card.Header>
+                        <Card.Description>
+                            text...
+                        </Card.Description>
                     </Card.Content>
                 </Card>
             </Card.Group>

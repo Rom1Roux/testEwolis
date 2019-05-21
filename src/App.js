@@ -14,6 +14,7 @@ import Qualification from './Component/Qualification';
 function App() {
   return (
     <div className='App'>
+      <header></header>
       <NavarBarBurger />
       <Expertise />
       <Divider horizontal>  <Icon name='plane' size='mini' /></Divider>
