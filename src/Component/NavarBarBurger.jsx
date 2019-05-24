@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { bubble as Menu } from 'react-burger-menu';
+import { slide as Menu } from 'react-burger-menu';
 
 class NavarBarBurger extends Component {
     render() {

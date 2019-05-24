@@ -1,11 +1,11 @@
 header {
   bottom:0;
-  background-color: #00a4dfc6;
+  background-color: #bd7dc7a8;
   height: 20px;
 }
 body {
   font-family: 'Poppins', sans-serif;
-  background-color: #00a4df43;
+  background-color: #bd7dc743;
 }
 
 .NavBarApp a {
@@ -35,7 +35,7 @@ li {
 /* Navbar Color */
 
 .bm-item.menu-item {
-  color: #8a9faf;
+  color: #000000;
   text-decoration: none;
   margin-bottom: 20px;
 }
@@ -53,13 +53,13 @@ li {
 /* Color/shape of burger icon bars */
 
 .bm-burger-bars {
-  background: #373a47;
+  background: #bd7dc743;
 }
 
 /* Color/shape of burger icon bars on hover*/
 
 .bm-burger-bars-hover {
-  background: #00a4dfc6;
+  background: #bd7dc743;
 }
 
 /* Position and sizing of clickable cross button */
@@ -89,7 +89,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
 
 .bm-menu {
   /* background: #373a47; */
-  background: #00a4dfc6;
+  background:  #bd7dc7;
   padding: 2.5em 0.5em 0px;
   font-size: 1.15em;
 }
