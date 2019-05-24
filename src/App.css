@@ -28,14 +28,16 @@ h1, h2 {
 .NavBarApp a {
   outline: none;
 }
+
 .ui.simple.dropdown>.menu {
-background-color: rgba(42, 178, 228, 0.105);
+  background-color: rgba(42, 178, 228, 0.105);
 }
 
 .NavBarDropdown, .ui.dropdown .menu>.item {
   font-family: 'Poppins', sans-serif;
   color: #8a9faf;
 }
+
 .navbar-Selected {
   font-weight: bold !important;
   color: #f3f6f8 !important;
