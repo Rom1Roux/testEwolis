@@ -1,4 +1,4 @@
-## elastic-burger-Menu
+# elastic-burger-Menu
 Here is a useful example of the burger-menus library with routes (page link) and a dropdown (submenu).
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
