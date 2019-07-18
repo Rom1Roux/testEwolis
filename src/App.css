@@ -1,19 +1,16 @@
 header {
-  bottom:0;
-  background-color: #bd7dc7a8;
+  bottom: 0;
+  background-color: #00a4dfc6;
   height: 20px;
 }
+
 body {
   font-family: 'Poppins', sans-serif;
   background-color: #bd7dc743;
 }
 
-.NavBarApp a {
-  outline: none;
-}
-
-.NavBarApp a:hover {
-  color: #f3f6f8;
+h1 {
+  font-size: 80px;
 }
 
 h1, h2 {
@@ -26,13 +23,29 @@ h1, h2 {
   text-align: center;
 }
 
-li {
-  color: #f3f6f8;
-  text-align: center;
-  list-style-type: none;
+/* Navbar Color */
+
+.NavBarApp a {
+  outline: none;
 }
 
-/* Navbar Color */
+.ui.simple.dropdown>.menu {
+  background-color: rgba(42, 178, 228, 0.105);
+}
+
+.NavBarDropdown, .ui.dropdown .menu>.item {
+  font-family: 'Poppins', sans-serif;
+  color: #8a9faf;
+}
+
+.navbar-Selected {
+  font-weight: bold !important;
+  color: #f3f6f8 !important;
+}
+
+.NavBarApp a:hover, .NavBarDropdown:hover, .ui.dropdown .menu>.item:hover, .active.selected.item {
+  color: #f3f6f8 !important;
+}
 
 .bm-item.menu-item {
   color: #000000;
