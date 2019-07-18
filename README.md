@@ -23,12 +23,12 @@ cd background-particles/
 npm start
 ```
 
-## Frameworks & Librairies
+## Frameworks & Library
 
 <b>Frameworks : </b>
 [React](https://www.reactboilerplate.com/)
 
-<b>Library : </b>
+<b>Libraries : </b>
 [react-burger-menu](https://negomi.github.io/react-burger-menu/),
 [react-router-dom](https://www.npmjs.com/package/react-router-dom),
 [semantic-ui-react](https://react.semantic-ui.com/)
